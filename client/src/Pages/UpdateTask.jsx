@@ -42,7 +42,7 @@ const UpdateJob = () => {
             //console.log(result)
             if(result.acknowledged===true){
                 alert('Task Updated Successfully!!!')
-                window.location.href='https://taskmanager-chi-nine.vercel.app/task-allocated';
+                window.location.href='https://taskmanager-chi-nine.vercel.app/';
             }
             reset()
         })
