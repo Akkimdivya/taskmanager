@@ -12,10 +12,6 @@ const Navbar = () => {
       {
         path:"/",title:"Tasks"
       },
-      
-      {
-        path:"/task-allocated",title:"Task Allocated"
-      },
       {
         path:"/delegation",title:"Delegation"
       },
