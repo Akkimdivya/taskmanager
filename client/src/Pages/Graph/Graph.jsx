@@ -50,9 +50,10 @@ function Graph() {
 
   // Fetch data from the API
   useEffect(() => {
+
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/all-tasks/");
+        const response = await axios.get("https://taskmanager-xxs2.onrender.com/all-tasks/");
         setData(response.data);
         setLoading(false);
       } catch (error) {
