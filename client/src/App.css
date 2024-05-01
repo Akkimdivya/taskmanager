@@ -167,7 +167,6 @@ li {
   display: flex;
   flex-direction: column;
   background-color: rgb(3, 99, 120);
-  height: 100vh;
   text-align: center;
   justify-content: center;
 }
