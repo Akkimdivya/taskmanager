@@ -39,7 +39,7 @@ const CreateJob = () => {
             //console.log(result)
             if(result.acknowledged===true){
                 alert('Task added Successfully!!!')
-                window.location.href='http://localhost:5173/delegation';
+                window.location.href='https://taskmanager-chi-nine.vercel.app/delegation';
             }
             reset()
         })
